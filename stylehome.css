@@ -1,0 +1,120 @@
+body{
+    overflow-x: hidden;
+    font-family: 'Droid Sans', sans-serif;
+    background-image: url(sky.jpg);
+}
+
+.navbar{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: .9rem;
+    letter-spacing: .1rem;
+}
+.navbar-brand img{
+    height: 3rem;
+}
+.navbar-nav li{
+    padding-right: .7rem;
+}
+.navbar-dark .navbar-nav .nav-link{
+    color: white;
+    padding-top: .8rem;
+}
+.navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link:hover {
+    color: royalblue;
+}
+
+/*HOME*/
+.caption{
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
+    top: 38%;
+    z-index: 1;
+    color: white;
+    text-transform: uppercase;
+}
+.caption h1{
+    font-size: 3.8rem;
+    font-weight: 700;
+    letter-spacing: .3rem;
+    padding-top: 6rem;
+}
+
+/*GALLERY*/
+.container.gallery-container {
+    background-color: #fff;
+    color: #35373a;
+    min-height: 100vh;
+    border-radius: 20px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06);
+}
+.gallery-container h1{
+    text-align: center;
+    margin-top: 70px;
+    font-family: 'Droid Sans', sans-serif;
+    font-weight: bold;
+}
+
+/*PORTFOLIO*/
+.container.portfolio-container{
+    background-color: #fff;
+    color: #35373a;
+    min-height: 100vh;
+    border-radius: 20px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06);
+}
+.portfolio-container h1{
+    text-align: center;
+    margin-top: 70px;
+    font-family: 'Droid Sans', sans-serif;
+    font-weight: bold;
+}
+
+/*ABOUT*/
+.container.aboutme-container{
+    background-color: #fff;
+    color: #35373a;
+    min-height: 100vh;
+    border-radius: 20px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06);
+}
+.aboutme-container h1{
+    text-align: center;
+    margin-top: 70px;
+    font-family: 'Droid Sans', sans-serif;
+    font-weight: bold;
+}
+
+.container.aboutme-container p{
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+/*CONTACT*/
+.container.contact-container{
+    background-color: #fff;
+    color: #35373a;
+    border-radius: 20px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06);
+}
+.contact-container h1{
+    text-align: center;
+    margin-top: 70px;
+    font-family: 'Droid Sans', sans-serif;
+    font-weight: bold;
+}
+
+/*FOOTER*/
+.footer-container h5{
+    text-align: center;
+    font-family: 'Droid Sans', sans-serif;
+    font-weight: bold;
+    color: #fff;
+}
+.page-footer{
+    background-color: #35373a!important;
+}
+.footer-copyright{
+    color: white;
+}
